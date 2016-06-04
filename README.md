@@ -1,2 +1,2 @@
 # cats-app
-WhatsApp, but with cat photos
+> A messaging web app that uses amusing cat photos instead of text
