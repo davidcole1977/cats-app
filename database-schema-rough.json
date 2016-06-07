@@ -1,0 +1,57 @@
+{
+	"users": [
+		{
+			"id": "",
+			"name": "",
+			"avatar": "",
+			"conversations": "",
+			"dictionaries": ""
+		}
+	],
+	"conversations": [
+		{
+			"participants": [
+
+			],
+			"dictionaries": [
+
+			],
+			"messages": [
+				{
+					"sender": "",
+					"text": "",
+					"image": "",
+					"timestamp": ""
+				}
+			]
+		}
+		
+	],
+	"dictionaries": [
+		{
+			"id": "",
+			"name": "",
+			"contributors": [
+
+			],
+			"definitions": [
+				{
+					"id": "",
+					"text": "",
+					"images": [
+
+					],
+					"synonyms": [
+
+					]
+				}
+			]
+		}
+	],
+	"images": [
+		{
+			"id": "",
+			"src": ""
+		}
+	]
+}
