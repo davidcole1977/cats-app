@@ -4,17 +4,30 @@
 			"id": "",
 			"name": "",
 			"avatar": "",
-			"conversations": "",
-			"dictionaries": ""
+			"conversations": [
+				"id", "id"
+			],
+			"images": [
+				"id", "id"
+			],
+			"definitions": [
+				{
+					"id": "",
+					"text": "",
+					"images": [
+						"id", "id"
+					],
+					"synonyms": [
+						"id", "id"
+					]
+				}
+			]
 		}
 	],
 	"conversations": [
 		{
-			"participants": [
-
-			],
-			"dictionaries": [
-
+			"users": [
+				"id", "id"
 			],
 			"messages": [
 				{
@@ -25,33 +38,14 @@
 				}
 			]
 		}
-		
-	],
-	"dictionaries": [
-		{
-			"id": "",
-			"name": "",
-			"contributors": [
-
-			],
-			"definitions": [
-				{
-					"id": "",
-					"text": "",
-					"images": [
-
-					],
-					"synonyms": [
-
-					]
-				}
-			]
-		}
 	],
 	"images": [
 		{
 			"id": "",
-			"src": ""
+			"src": "",
+			"users": [
+				"id", "id"
+			]
 		}
 	]
 }
