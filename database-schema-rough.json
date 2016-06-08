@@ -3,13 +3,18 @@
 		{
 			"id": "",
 			"name": "",
-			"avatar": "",
+			"avatar": "id",
 			"conversations": [
 				"id", "id"
 			],
 			"images": [
 				"id", "id"
-			],
+			]
+		}
+	],
+	"dictionaries": [
+		{
+			"owner": "id",
 			"definitions": [
 				{
 					"id": "",
