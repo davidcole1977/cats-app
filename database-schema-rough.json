@@ -1,23 +1,29 @@
 {
 	"users": {
 		"$userid": {
-			"name": "",
-			"avatar": "id",
+			"name": "Keiko",
+			"avatar": "/image/location/image.jpg",
 			"conversations": [
-				"id", "id"
+				"$conversationid", "$conversationid"
 			],
 			"images": [
-				"id", "id"
+				"$imageid", "$imageid"
+			],
+			"contacts": [
+				"$userid", "$userid"
+			],
+			"invitations": [
+				"$userid", "$userid"
 			],
 			"definitions": [
 				{
-					"id": "",
-					"text": "",
+					"id": "$definitionid",
+					"text": "definition text",
 					"images": [
-						"id", "id"
+						"$imageid", "$imageid"
 					],
 					"synonyms": [
-						"id", "id"
+						"$definitionid", "$definitionid"
 					]
 				}
 			]
@@ -25,26 +31,28 @@
 	},
 	"conversations": [
 		{
-			"id": "",
+			"id": "$conversationid",
 			"users": [
-				"id", "id"
+				"$userid", "$userid"
 			],
 			"messages": [
 				{
-					"sender": "",
-					"text": "",
-					"image": "",
-					"timestamp": ""
+					"sender": "$userid",
+					"text": "definition text",
+					"image": "$imageid",
+					"timestamp": "201612011444...",
+					"sent": true,
+					"received": false
 				}
 			]
 		}
 	],
 	"images": [
 		{
-			"id": "",
-			"src": "",
+			"id": "$imageid",
+			"src": "/image/location/image.jpg",
 			"users": [
-				"id", "id"
+				"$userid", "$userid"
 			]
 		}
 	]
