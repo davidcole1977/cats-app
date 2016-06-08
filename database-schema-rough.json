@@ -4,26 +4,32 @@
 			"name": "Keiko",
 			"avatar": "/image/location/image.jpg",
 			"conversations": [
-				"$conversationid", "$conversationid"
+				"$conversationid",
+				"$conversationid"
 			],
 			"images": [
-				"$imageid", "$imageid"
+				"$imageid",
+				"$imageid"
 			],
 			"contacts": [
-				"$userid", "$userid"
+				"$userid",
+				"$userid"
 			],
 			"invitations": [
-				"$userid", "$userid"
+				"$userid",
+				"$userid"
 			],
 			"definitions": [
 				{
 					"id": "$definitionid",
 					"text": "definition text",
 					"images": [
-						"$imageid", "$imageid"
+						"$imageid",
+						"$imageid"
 					],
 					"synonyms": [
-						"$definitionid", "$definitionid"
+						"$definitionid",
+						"$definitionid"
 					]
 				}
 			]
@@ -33,7 +39,8 @@
 		{
 			"id": "$conversationid",
 			"users": [
-				"$userid", "$userid"
+				"$userid",
+				"$userid"
 			],
 			"messages": [
 				{
@@ -52,7 +59,8 @@
 			"id": "$imageid",
 			"src": "/image/location/image.jpg",
 			"users": [
-				"$userid", "$userid"
+				"$userid",
+				"$userid"
 			]
 		}
 	]
