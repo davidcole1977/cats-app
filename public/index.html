@@ -4,13 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CatsApp</title>
+    <link rel="stylesheet" type="text/css" href="/third-party/semantic-ui/semantic.min.css">
   </head>
   <body>
-    <h1>CatsApp Authentication test</h1>
+    <h1>CatsApp</h1>
 
     <p data-catsapp-role="signin-status-dispay">Just checking...</p>
-
-    <p><img src="/images/excited-kitten.gif" style="display: none;" data-catsapp-role="kitty-photo"/></p>
 
     <button data-catsapp-role="signinout-btn">Just checking...</button>
 
@@ -73,6 +72,18 @@
           hideCatPicture();
         }
       });
+
+      function createUser(userId, options) {
+        const { name } = options;
+        
+        const createUserPromise = new Promise((resolve, reject) => {
+          firebase.database().ref(`users/${userId}`).set({
+            name
+          }).then(resolve);
+        });
+
+        return createUserPromise;
+      }
 
       $('[data-catsapp-role="signinout-btn"]').on('click', toggleAuthentication);
     </script>
