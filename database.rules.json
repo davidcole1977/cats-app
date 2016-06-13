@@ -1,0 +1,27 @@
+{
+  "rules": {
+    ".read": false,
+  	".write": false,
+      
+    "users": {
+      "$userId": {
+        ".write": "$userId === auth.uid",
+        ".read": "$userId === auth.uid"
+      }
+    },
+      
+    "conversations": {
+      "$conversationId": {
+				".write": "data.child('users').hasChild(auth.uid)",
+        ".read": "data.child('users').hasChild(auth.uid)"
+      }
+    },
+      
+    "images": {
+      "$imageId": {
+        ".write": "data.child('users').hasChild(auth.uid)",
+        ".read": "data.child('users').hasChild(auth.uid)"
+      }
+    }
+  }
+}
